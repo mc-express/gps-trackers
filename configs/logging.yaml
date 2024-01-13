@@ -1,0 +1,14 @@
+logging:
+  level: trace
+  time-format : 2006-01-02 15:04:05.000
+  # filepath    : ../logs/gps-trackers.log
+  # write-pretty: true
+  with-caller : true
+  # full-caller : true
+  rotation:
+    max-size      : 1
+    max-backups   : 30
+    max-age       : 30
+    localtime     : true
+    # compress      : true
+    rotate-startup: true

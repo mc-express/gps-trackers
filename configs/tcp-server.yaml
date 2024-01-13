@@ -1,0 +1,11 @@
+tcp-server:
+  host                : 127.0.0.1
+  port                : 1328
+  proto               : wialonips # egts
+  timeouts            : 10s
+  loops               :
+  workerpool-shards   :
+  socket-reuse-port   : true
+  socket-fast-open    :
+  socket-defer-accept :
+  allow-thread-locking:

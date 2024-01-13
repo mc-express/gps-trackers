@@ -1,0 +1,14 @@
+consumers:
+  postgres:
+    host    : 127.0.0.1
+    port    : 5432
+    user    : postgres
+    pass    : postgres
+    database: mcexpress
+    add-params:
+      ssl-mode                : 
+      max-conns               :
+      max-conn-lifetime       :
+      max-conn-idle-time      :
+      max-conn-lifetime-jitter:
+      health-check-period     :
